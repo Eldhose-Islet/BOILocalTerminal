@@ -1,6 +1,7 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'BOILocalTerminal_Example' do
   pod 'BOILocalTerminal', :path => '../'

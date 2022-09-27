@@ -1,0 +1,16 @@
+PODS:
+  - BOILocalTerminal (0.1.0)
+
+DEPENDENCIES:
+  - BOILocalTerminal (from `../`)
+
+EXTERNAL SOURCES:
+  BOILocalTerminal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BOILocalTerminal: 362ed0304db417c7be814e2fd33ce1c06771b3aa
+
+PODFILE CHECKSUM: e8abe8770872d9802d512e9c781e4c4cc3a4e15e
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B2983E04E514596832F367D334EE1C /* printouts.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7467D24549ED812648296844E14DED /* printouts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08DB2E84E884A0BC9E9376D8F91D0F71 /* Pods-BOILocalTerminal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681060772B2508851E0B8DD88F095B4E /* Pods-BOILocalTerminal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12912A55A670BE670A48478C3282E302 /* ESTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EC22533F4A61663D2EFBE9005DEFCA /* ESTextFieldDelegate.m */; };
+		243B4EACCBFF75CD858478A12B3C133D /* ESApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D4228FD16278076E59918AF42168C5 /* ESApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D93107EFF3B03ACD0CAE7F0D00C77E /* ESValueQuestionData.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBF9E0C3F26D5988556C2995779377 /* ESValueQuestionData.m */; };
+		26218A72D5F1BDD65F5370132A67BE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2EFECBDD622B4127DFB4B89505F87279 /* ESAsynchResp.h in Headers */ = {isa = PBXBuildFile; fileRef = AF02BD752A36C37F766973989D4B4E72 /* ESAsynchResp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F79FEDEB6509A773FFBD42B10FD76B8 /* ecrlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FDB8A3447AB9F86325C8AF86BB923D /* ecrlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C2FA67B6A6A1015817304C8F21FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37A74B2F59773F27A2B2FB50EECC8AE4 /* PrintoutStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = D8054DC6CFD6D6F7C2FD8534C7DA8F38 /* PrintoutStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D041F9B2D58E48952F32B7E9028CFF /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = 763439D8D7D5E0D321C920EBB564E1BD /* tags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D69672136A39876B7A881747E9F829 /* ESApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C0CDD9E186ECEE447A6B0CE6E8C57 /* ESApi.m */; };
+		39D7B3400073B803C2FBA66ABE7F85F8 /* BOILocalTerminalEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE012CB37EC43BBF320AB78C9689AC0 /* BOILocalTerminalEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E067A14A7048202E86C3C0601FE683B /* tlv.h in Headers */ = {isa = PBXBuildFile; fileRef = A79DD435E895C818BEA9625AB4187266 /* tlv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42DE130D7490801BB980964F9DA3AC8B /* BOILocalTerminal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C6B84B512FBA0E3C36C0896BF52287 /* BOILocalTerminal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523233B69488B83A11D4624FC14B7EF6 /* ESApiTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC9F21EE2DF1CF5867D9E562EC92A61 /* ESApiTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A4E3D628E2B5EE00795B1F /* BOILocalTerminal.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A4E3D528E2B5EE00795B1F /* BOILocalTerminal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BADC60C54F86938A196A3709429772 /* ESDummySelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD3F273722233C8D5F87BBBB1773ED5 /* ESDummySelectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621FF6D30DA55D6E0974749B768FD9DA /* Pods-BOILocalTerminal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E49DC992A2F0B1F007AD9D647A974F51 /* Pods-BOILocalTerminal_Tests-dummy.m */; };
+		63ADD320F3884A3F30FD20530C3384C8 /* BOILocalTerminal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74BA691F10459BBC88CB66374BA26E /* BOILocalTerminal-dummy.m */; };
+		659ECB650222B4AC33176CEADE2E33D9 /* ESApiTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C66F3E969C1DD8E6EBCD51347B1CAB /* ESApiTextFieldDelegate.m */; };
+		65ED12D09847CDE5A50255131C81526B /* ESTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B6E3D93A5069C503CF8CAA6A113D91 /* ESTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5DDE7AA3212377CB5C6752F330DC53 /* BOILocalTerminalVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEEDF064988B55383C3FCB0541D3ED /* BOILocalTerminalVM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7E0F5875B5E76745D790DAFF2005A7 /* ESSelectionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB582575EE07E32BC2FFDD429D5A3E7 /* ESSelectionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7588BB0DCAE4FB57D9A0B51555BB5AA8 /* ESAsynchResp.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1B9DB2F304205AA6DEB5DD39A5BBB5 /* ESAsynchResp.m */; };
+		7DB57DE155952A420A65A82EC0E04FFB /* BOIEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = D18D37AC7D23DF8C72B181CC0F39BE6E /* BOIEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823D57001856FBD0333599F31A6ABB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97E2543BF6C8620366EAE3D409E0F24A /* callbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F03F384EABB2552E3D4C180437D00EA /* callbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99485C28A1B7058D602A16E94DCA03FA /* ESDummySelectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E67FFF747217AA3C0ABD23EC38584 /* ESDummySelectionDelegate.m */; };
+		A65FD547E184A5334BDBA9A0ACF78F57 /* Pods-BOILocalTerminal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF83CF2A0EAE7F4E98D105D3B58C478D /* Pods-BOILocalTerminal_Example-dummy.m */; };
+		ADF75663234E5C6F9262036F6F4619D0 /* BOILocalTerminalVM.m in Sources */ = {isa = PBXBuildFile; fileRef = E4189B28A6097B680A705590426E1083 /* BOILocalTerminalVM.m */; };
+		B392A75C76E28AE6D249A94AF794F160 /* enumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = C52C85E8DE7F7BF88776A3B979BB5DC2 /* enumerations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC140F9641E78F7BB789A8A4452FDBB /* dll_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AC972C7D73D3643F2094A8F27E4BF5 /* dll_macro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E01256A3680D301F82EBF2CF8A0D9C /* TOTBOItransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 58969ED30A3E23DCD48B31BF3F251940 /* TOTBOItransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27612DAC8A37C841B0E6EE9AB1C312F /* Pods-BOILocalTerminal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62499E83D40936BB34DB68B5A9A2CC3E /* Pods-BOILocalTerminal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC514D31641185A85FC2BA7A71A7D665 /* ESCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9BA72B5F8BB82C6B5854CCA66DA56 /* ESCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4127973238550CCB76EB9E893F0B905 /* ESSelectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7850FFD7ECBA4179136D3A02250BB99B /* ESSelectionData.m */; };
+		F27C75CBF568A621F0A70F24A5065708 /* TOTBOItransactionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 716071B3FCFE8DDA434C4F15DDE47108 /* TOTBOItransactionResult.m */; };
+		FF90A2C70370D3530A3A297386497DD7 /* ESValueQuestionData.h in Headers */ = {isa = PBXBuildFile; fileRef = C91825777447F086A0AF00BC186A448B /* ESValueQuestionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62C3A564F0A80D48241110B2788EF13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4F7D669A62BE504DC99DF210A4F5AC;
+			remoteInfo = "Pods-BOILocalTerminal_Example";
+		};
+		A2D4EDD4996FD961FAC67F0481159593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E1C353C98B268490DE7E3A21044846;
+			remoteInfo = BOILocalTerminal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B6E3D93A5069C503CF8CAA6A113D91 /* ESTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTextFieldDelegate.h; path = BOILocalTerminal/Classes/ESTextFieldDelegate.h; sourceTree = "<group>"; };
+		0DB582575EE07E32BC2FFDD429D5A3E7 /* ESSelectionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESSelectionData.h; path = BOILocalTerminal/Classes/ESSelectionData.h; sourceTree = "<group>"; };
+		120518481E6B3A9E5C75FE0F929401BF /* Pods-BOILocalTerminal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOILocalTerminal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17FEEDF064988B55383C3FCB0541D3ED /* BOILocalTerminalVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOILocalTerminalVM.h; path = BOILocalTerminal/Classes/BOILocalTerminalVM.h; sourceTree = "<group>"; };
+		18FDB8A3447AB9F86325C8AF86BB923D /* ecrlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecrlib.h; sourceTree = "<group>"; };
+		1F2A08B80107F81758CA3A99AA49E56A /* Pods-BOILocalTerminal_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BOILocalTerminal_Tests"; path = Pods_BOILocalTerminal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F74BA691F10459BBC88CB66374BA26E /* BOILocalTerminal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOILocalTerminal-dummy.m"; sourceTree = "<group>"; };
+		308C0CDD9E186ECEE447A6B0CE6E8C57 /* ESApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESApi.m; path = BOILocalTerminal/Classes/ESApi.m; sourceTree = "<group>"; };
+		33C6B84B512FBA0E3C36C0896BF52287 /* BOILocalTerminal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOILocalTerminal-umbrella.h"; sourceTree = "<group>"; };
+		3978F16AB07F53E127D8296A6FF8DB16 /* Pods-BOILocalTerminal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOILocalTerminal_Example-Info.plist"; sourceTree = "<group>"; };
+		41EC22533F4A61663D2EFBE9005DEFCA /* ESTextFieldDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESTextFieldDelegate.m; path = BOILocalTerminal/Classes/ESTextFieldDelegate.m; sourceTree = "<group>"; };
+		448263D97B93EDEC61A4AC1E3C4A7565 /* Pods-BOILocalTerminal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOILocalTerminal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44AC972C7D73D3643F2094A8F27E4BF5 /* dll_macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dll_macro.h; sourceTree = "<group>"; };
+		4E80CBC4FD6BC37CF5FF6C142CFD01BF /* Pods-BOILocalTerminal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BOILocalTerminal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F4FF6A732739E0AACD9DEC68C48AC11 /* BOILocalTerminal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOILocalTerminal.debug.xcconfig; sourceTree = "<group>"; };
+		52C731DC091CC3893DC2B9FB63080195 /* Pods-BOILocalTerminal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOILocalTerminal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5387EA570F044BCD5148C0944733B6A3 /* BOILocalTerminal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BOILocalTerminal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54D4228FD16278076E59918AF42168C5 /* ESApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESApi.h; path = BOILocalTerminal/Classes/ESApi.h; sourceTree = "<group>"; };
+		55A4E3D528E2B5EE00795B1F /* BOILocalTerminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOILocalTerminal.h; path = BOILocalTerminal/Classes/BOILocalTerminal.h; sourceTree = "<group>"; };
+		573823F3FAEDB2536813A0AEE1782C5C /* Pods-BOILocalTerminal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOILocalTerminal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58969ED30A3E23DCD48B31BF3F251940 /* TOTBOItransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOTBOItransactionResult.h; path = BOILocalTerminal/Classes/TOTBOItransactionResult.h; sourceTree = "<group>"; };
+		5DA0CAF4AA5024DB1CE301D653428D8C /* Pods-BOILocalTerminal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOILocalTerminal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB5A77AF1C8291F5534D76BB823EA0C /* Pods-BOILocalTerminal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOILocalTerminal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		62499E83D40936BB34DB68B5A9A2CC3E /* Pods-BOILocalTerminal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BOILocalTerminal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		64B51C0359D43E89D018BE71696BD2FA /* BOILocalTerminal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BOILocalTerminal.modulemap; sourceTree = "<group>"; };
+		681060772B2508851E0B8DD88F095B4E /* Pods-BOILocalTerminal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BOILocalTerminal_Example-umbrella.h"; sourceTree = "<group>"; };
+		6AE012CB37EC43BBF320AB78C9689AC0 /* BOILocalTerminalEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOILocalTerminalEvents.h; path = BOILocalTerminal/Classes/BOILocalTerminalEvents.h; sourceTree = "<group>"; };
+		716071B3FCFE8DDA434C4F15DDE47108 /* TOTBOItransactionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOTBOItransactionResult.m; path = BOILocalTerminal/Classes/TOTBOItransactionResult.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		763439D8D7D5E0D321C920EBB564E1BD /* tags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tags.h; sourceTree = "<group>"; };
+		76528A4A49D010AE4009A66AEB09318B /* Pods-BOILocalTerminal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BOILocalTerminal_Tests.modulemap"; sourceTree = "<group>"; };
+		7850FFD7ECBA4179136D3A02250BB99B /* ESSelectionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESSelectionData.m; path = BOILocalTerminal/Classes/ESSelectionData.m; sourceTree = "<group>"; };
+		8567439DA6BBF11BB34105E1AE6CC6EA /* Pods-BOILocalTerminal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOILocalTerminal_Tests-Info.plist"; sourceTree = "<group>"; };
+		88D8B2482CFC05451440562D83FF9918 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		896E8CB70ABFA84AE8D0E03AD084F06C /* BOILocalTerminal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOILocalTerminal-prefix.pch"; sourceTree = "<group>"; };
+		94D55AC7D9DE9D1091A43D37727246C3 /* BOILocalTerminal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOILocalTerminal.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F03F384EABB2552E3D4C180437D00EA /* callbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = callbacks.h; sourceTree = "<group>"; };
+		A79DD435E895C818BEA9625AB4187266 /* tlv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tlv.h; sourceTree = "<group>"; };
+		AA8E67FFF747217AA3C0ABD23EC38584 /* ESDummySelectionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESDummySelectionDelegate.m; path = BOILocalTerminal/Classes/ESDummySelectionDelegate.m; sourceTree = "<group>"; };
+		AF02BD752A36C37F766973989D4B4E72 /* ESAsynchResp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESAsynchResp.h; path = BOILocalTerminal/Classes/ESAsynchResp.h; sourceTree = "<group>"; };
+		B3621130661772773FCA2DB33967BFEB /* Pods-BOILocalTerminal_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BOILocalTerminal_Example"; path = Pods_BOILocalTerminal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7467D24549ED812648296844E14DED /* printouts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = printouts.h; sourceTree = "<group>"; };
+		C52C85E8DE7F7BF88776A3B979BB5DC2 /* enumerations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = enumerations.h; sourceTree = "<group>"; };
+		C91825777447F086A0AF00BC186A448B /* ESValueQuestionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESValueQuestionData.h; path = BOILocalTerminal/Classes/ESValueQuestionData.h; sourceTree = "<group>"; };
+		CAB9BA72B5F8BB82C6B5854CCA66DA56 /* ESCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESCallbacks.h; path = BOILocalTerminal/Classes/ESCallbacks.h; sourceTree = "<group>"; };
+		CFD3F273722233C8D5F87BBBB1773ED5 /* ESDummySelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESDummySelectionDelegate.h; path = BOILocalTerminal/Classes/ESDummySelectionDelegate.h; sourceTree = "<group>"; };
+		D18D37AC7D23DF8C72B181CC0F39BE6E /* BOIEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOIEnums.h; path = BOILocalTerminal/Classes/BOIEnums.h; sourceTree = "<group>"; };
+		D8054DC6CFD6D6F7C2FD8534C7DA8F38 /* PrintoutStructures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PrintoutStructures.h; sourceTree = "<group>"; };
+		DC1CD757293BFCD00E04A015F31C1544 /* Pods-BOILocalTerminal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BOILocalTerminal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE09D1BC033C661BF172A5353B43533B /* BOILocalTerminal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BOILocalTerminal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1B9DB2F304205AA6DEB5DD39A5BBB5 /* ESAsynchResp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESAsynchResp.m; path = BOILocalTerminal/Classes/ESAsynchResp.m; sourceTree = "<group>"; };
+		DF83CF2A0EAE7F4E98D105D3B58C478D /* Pods-BOILocalTerminal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BOILocalTerminal_Example-dummy.m"; sourceTree = "<group>"; };
+		E1359A817A1DF4050C52E6C3E94C3ADE /* BOILocalTerminal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BOILocalTerminal-Info.plist"; sourceTree = "<group>"; };
+		E3BBF9E0C3F26D5988556C2995779377 /* ESValueQuestionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESValueQuestionData.m; path = BOILocalTerminal/Classes/ESValueQuestionData.m; sourceTree = "<group>"; };
+		E4189B28A6097B680A705590426E1083 /* BOILocalTerminalVM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOILocalTerminalVM.m; path = BOILocalTerminal/Classes/BOILocalTerminalVM.m; sourceTree = "<group>"; };
+		E49DC992A2F0B1F007AD9D647A974F51 /* Pods-BOILocalTerminal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BOILocalTerminal_Tests-dummy.m"; sourceTree = "<group>"; };
+		E4C66F3E969C1DD8E6EBCD51347B1CAB /* ESApiTextFieldDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESApiTextFieldDelegate.m; path = BOILocalTerminal/Classes/ESApiTextFieldDelegate.m; sourceTree = "<group>"; };
+		F0E4AAAEBD81D9049A00CEF6E8746117 /* Pods-BOILocalTerminal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BOILocalTerminal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1D931E769B5E803F785BE3AAAD180EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FDC1BA13B2A484C5F71DDC145F6E9260 /* Pods-BOILocalTerminal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BOILocalTerminal_Example.modulemap"; sourceTree = "<group>"; };
+		FDC9F21EE2DF1CF5867D9E562EC92A61 /* ESApiTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESApiTextFieldDelegate.h; path = BOILocalTerminal/Classes/ESApiTextFieldDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219DBEC8EA32EACB8FA8FAA55EC75516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C2FA67B6A6A1015817304C8F21FFC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7824EF88166027D3D38E6FFCC5E7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26218A72D5F1BDD65F5370132A67BE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0981CAA0A46F5CA75311682AA0DF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823D57001856FBD0333599F31A6ABB9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14369DF062EE8FEE70972661FB45A839 /* Pods-BOILocalTerminal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1BA13B2A484C5F71DDC145F6E9260 /* Pods-BOILocalTerminal_Example.modulemap */,
+				F0E4AAAEBD81D9049A00CEF6E8746117 /* Pods-BOILocalTerminal_Example-acknowledgements.markdown */,
+				120518481E6B3A9E5C75FE0F929401BF /* Pods-BOILocalTerminal_Example-acknowledgements.plist */,
+				DF83CF2A0EAE7F4E98D105D3B58C478D /* Pods-BOILocalTerminal_Example-dummy.m */,
+				DC1CD757293BFCD00E04A015F31C1544 /* Pods-BOILocalTerminal_Example-frameworks.sh */,
+				3978F16AB07F53E127D8296A6FF8DB16 /* Pods-BOILocalTerminal_Example-Info.plist */,
+				681060772B2508851E0B8DD88F095B4E /* Pods-BOILocalTerminal_Example-umbrella.h */,
+				448263D97B93EDEC61A4AC1E3C4A7565 /* Pods-BOILocalTerminal_Example.debug.xcconfig */,
+				573823F3FAEDB2536813A0AEE1782C5C /* Pods-BOILocalTerminal_Example.release.xcconfig */,
+			);
+			name = "Pods-BOILocalTerminal_Example";
+			path = "Target Support Files/Pods-BOILocalTerminal_Example";
+			sourceTree = "<group>";
+		};
+		2827603A7B8841A91EB22DF3B16CF9D1 /* BOILocalTerminal */ = {
+			isa = PBXGroup;
+			children = (
+				55A4E3D528E2B5EE00795B1F /* BOILocalTerminal.h */,
+				D18D37AC7D23DF8C72B181CC0F39BE6E /* BOIEnums.h */,
+				6AE012CB37EC43BBF320AB78C9689AC0 /* BOILocalTerminalEvents.h */,
+				17FEEDF064988B55383C3FCB0541D3ED /* BOILocalTerminalVM.h */,
+				E4189B28A6097B680A705590426E1083 /* BOILocalTerminalVM.m */,
+				54D4228FD16278076E59918AF42168C5 /* ESApi.h */,
+				308C0CDD9E186ECEE447A6B0CE6E8C57 /* ESApi.m */,
+				FDC9F21EE2DF1CF5867D9E562EC92A61 /* ESApiTextFieldDelegate.h */,
+				E4C66F3E969C1DD8E6EBCD51347B1CAB /* ESApiTextFieldDelegate.m */,
+				AF02BD752A36C37F766973989D4B4E72 /* ESAsynchResp.h */,
+				DF1B9DB2F304205AA6DEB5DD39A5BBB5 /* ESAsynchResp.m */,
+				CAB9BA72B5F8BB82C6B5854CCA66DA56 /* ESCallbacks.h */,
+				CFD3F273722233C8D5F87BBBB1773ED5 /* ESDummySelectionDelegate.h */,
+				AA8E67FFF747217AA3C0ABD23EC38584 /* ESDummySelectionDelegate.m */,
+				0DB582575EE07E32BC2FFDD429D5A3E7 /* ESSelectionData.h */,
+				7850FFD7ECBA4179136D3A02250BB99B /* ESSelectionData.m */,
+				05B6E3D93A5069C503CF8CAA6A113D91 /* ESTextFieldDelegate.h */,
+				41EC22533F4A61663D2EFBE9005DEFCA /* ESTextFieldDelegate.m */,
+				C91825777447F086A0AF00BC186A448B /* ESValueQuestionData.h */,
+				E3BBF9E0C3F26D5988556C2995779377 /* ESValueQuestionData.m */,
+				58969ED30A3E23DCD48B31BF3F251940 /* TOTBOItransactionResult.h */,
+				716071B3FCFE8DDA434C4F15DDE47108 /* TOTBOItransactionResult.m */,
+				76C7DB7BF539CA8A77EA6CCEE13C5003 /* Headers */,
+				CAA9F6C28170A0EA8452650DD9D047FF /* Pod */,
+				F493056EC5240E8BC06242D66166AA7F /* Support Files */,
+			);
+			name = BOILocalTerminal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		685A956EA3AFEC0D27C932C6475485C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE09D1BC033C661BF172A5353B43533B /* BOILocalTerminal.framework */,
+				B3621130661772773FCA2DB33967BFEB /* Pods-BOILocalTerminal_Example */,
+				1F2A08B80107F81758CA3A99AA49E56A /* Pods-BOILocalTerminal_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C7DB7BF539CA8A77EA6CCEE13C5003 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9F03F384EABB2552E3D4C180437D00EA /* callbacks.h */,
+				44AC972C7D73D3643F2094A8F27E4BF5 /* dll_macro.h */,
+				18FDB8A3447AB9F86325C8AF86BB923D /* ecrlib.h */,
+				C52C85E8DE7F7BF88776A3B979BB5DC2 /* enumerations.h */,
+				BA7467D24549ED812648296844E14DED /* printouts.h */,
+				D8054DC6CFD6D6F7C2FD8534C7DA8F38 /* PrintoutStructures.h */,
+				763439D8D7D5E0D321C920EBB564E1BD /* tags.h */,
+				A79DD435E895C818BEA9625AB4187266 /* tlv.h */,
+			);
+			name = Headers;
+			path = BOILocalTerminal/Classes/Headers;
+			sourceTree = "<group>";
+		};
+		8232B7C08D64FE899075F4CA33723B42 /* Pods-BOILocalTerminal_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76528A4A49D010AE4009A66AEB09318B /* Pods-BOILocalTerminal_Tests.modulemap */,
+				4E80CBC4FD6BC37CF5FF6C142CFD01BF /* Pods-BOILocalTerminal_Tests-acknowledgements.markdown */,
+				52C731DC091CC3893DC2B9FB63080195 /* Pods-BOILocalTerminal_Tests-acknowledgements.plist */,
+				E49DC992A2F0B1F007AD9D647A974F51 /* Pods-BOILocalTerminal_Tests-dummy.m */,
+				8567439DA6BBF11BB34105E1AE6CC6EA /* Pods-BOILocalTerminal_Tests-Info.plist */,
+				62499E83D40936BB34DB68B5A9A2CC3E /* Pods-BOILocalTerminal_Tests-umbrella.h */,
+				5DA0CAF4AA5024DB1CE301D653428D8C /* Pods-BOILocalTerminal_Tests.debug.xcconfig */,
+				5DB5A77AF1C8291F5534D76BB823EA0C /* Pods-BOILocalTerminal_Tests.release.xcconfig */,
+			);
+			name = "Pods-BOILocalTerminal_Tests";
+			path = "Target Support Files/Pods-BOILocalTerminal_Tests";
+			sourceTree = "<group>";
+		};
+		9856EBD22C643ADB6DBE200EE2EE7298 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14369DF062EE8FEE70972661FB45A839 /* Pods-BOILocalTerminal_Example */,
+				8232B7C08D64FE899075F4CA33723B42 /* Pods-BOILocalTerminal_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAA9F6C28170A0EA8452650DD9D047FF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5387EA570F044BCD5148C0944733B6A3 /* BOILocalTerminal.podspec */,
+				F1D931E769B5E803F785BE3AAAD180EA /* LICENSE */,
+				88D8B2482CFC05451440562D83FF9918 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB28AEDC3BACCEBF6588EB0DDFAB0414 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				685A956EA3AFEC0D27C932C6475485C7 /* Products */,
+				9856EBD22C643ADB6DBE200EE2EE7298 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F493056EC5240E8BC06242D66166AA7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B51C0359D43E89D018BE71696BD2FA /* BOILocalTerminal.modulemap */,
+				2F74BA691F10459BBC88CB66374BA26E /* BOILocalTerminal-dummy.m */,
+				E1359A817A1DF4050C52E6C3E94C3ADE /* BOILocalTerminal-Info.plist */,
+				896E8CB70ABFA84AE8D0E03AD084F06C /* BOILocalTerminal-prefix.pch */,
+				33C6B84B512FBA0E3C36C0896BF52287 /* BOILocalTerminal-umbrella.h */,
+				4F4FF6A732739E0AACD9DEC68C48AC11 /* BOILocalTerminal.debug.xcconfig */,
+				94D55AC7D9DE9D1091A43D37727246C3 /* BOILocalTerminal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BOILocalTerminal";
+			sourceTree = "<group>";
+		};
+		FB28AEDC3BACCEBF6588EB0DDFAB0414 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2827603A7B8841A91EB22DF3B16CF9D1 /* BOILocalTerminal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C03CBF539BC165FA32DB1B05C8A7665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB57DE155952A420A65A82EC0E04FFB /* BOIEnums.h in Headers */,
+				55A4E3D628E2B5EE00795B1F /* BOILocalTerminal.h in Headers */,
+				42DE130D7490801BB980964F9DA3AC8B /* BOILocalTerminal-umbrella.h in Headers */,
+				39D7B3400073B803C2FBA66ABE7F85F8 /* BOILocalTerminalEvents.h in Headers */,
+				6A5DDE7AA3212377CB5C6752F330DC53 /* BOILocalTerminalVM.h in Headers */,
+				97E2543BF6C8620366EAE3D409E0F24A /* callbacks.h in Headers */,
+				BEC140F9641E78F7BB789A8A4452FDBB /* dll_macro.h in Headers */,
+				2F79FEDEB6509A773FFBD42B10FD76B8 /* ecrlib.h in Headers */,
+				B392A75C76E28AE6D249A94AF794F160 /* enumerations.h in Headers */,
+				243B4EACCBFF75CD858478A12B3C133D /* ESApi.h in Headers */,
+				523233B69488B83A11D4624FC14B7EF6 /* ESApiTextFieldDelegate.h in Headers */,
+				2EFECBDD622B4127DFB4B89505F87279 /* ESAsynchResp.h in Headers */,
+				CC514D31641185A85FC2BA7A71A7D665 /* ESCallbacks.h in Headers */,
+				59BADC60C54F86938A196A3709429772 /* ESDummySelectionDelegate.h in Headers */,
+				6F7E0F5875B5E76745D790DAFF2005A7 /* ESSelectionData.h in Headers */,
+				65ED12D09847CDE5A50255131C81526B /* ESTextFieldDelegate.h in Headers */,
+				FF90A2C70370D3530A3A297386497DD7 /* ESValueQuestionData.h in Headers */,
+				04B2983E04E514596832F367D334EE1C /* printouts.h in Headers */,
+				37A74B2F59773F27A2B2FB50EECC8AE4 /* PrintoutStructures.h in Headers */,
+				37D041F9B2D58E48952F32B7E9028CFF /* tags.h in Headers */,
+				3E067A14A7048202E86C3C0601FE683B /* tlv.h in Headers */,
+				C1E01256A3680D301F82EBF2CF8A0D9C /* TOTBOItransactionResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC6CFDEE3836665A87F02552372B739 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27612DAC8A37C841B0E6EE9AB1C312F /* Pods-BOILocalTerminal_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18B67A45F42FCEDDE55EEA80280AC43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB2E84E884A0BC9E9376D8F91D0F71 /* Pods-BOILocalTerminal_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26E1C353C98B268490DE7E3A21044846 /* BOILocalTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B874730A40BD1ABC8B109DDDCA8A94A /* Build configuration list for PBXNativeTarget "BOILocalTerminal" */;
+			buildPhases = (
+				4C03CBF539BC165FA32DB1B05C8A7665 /* Headers */,
+				DE1FE7F9ADE2217BA639054CE6DD2B6B /* Sources */,
+				BC0981CAA0A46F5CA75311682AA0DF03 /* Frameworks */,
+				5C8CFD3E29CC87C984E324B193833E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOILocalTerminal;
+			productName = BOILocalTerminal;
+			productReference = DE09D1BC033C661BF172A5353B43533B /* BOILocalTerminal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9D0543CF8BA03D0A32755D2BF82BAD0 /* Pods-BOILocalTerminal_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A7E9F9D384D753A5F0AA6F1F140B4C /* Build configuration list for PBXNativeTarget "Pods-BOILocalTerminal_Tests" */;
+			buildPhases = (
+				9BC6CFDEE3836665A87F02552372B739 /* Headers */,
+				F35D7651016193DFDAB3EDC291BA76F0 /* Sources */,
+				9C7824EF88166027D3D38E6FFCC5E7BD /* Frameworks */,
+				64D8261472111125339387A46F387969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C567C800D6D53BE09CC3732D19419F19 /* PBXTargetDependency */,
+			);
+			name = "Pods-BOILocalTerminal_Tests";
+			productName = Pods_BOILocalTerminal_Tests;
+			productReference = 1F2A08B80107F81758CA3A99AA49E56A /* Pods-BOILocalTerminal_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA4F7D669A62BE504DC99DF210A4F5AC /* Pods-BOILocalTerminal_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7693066A681FD1559D9E1682CA759E20 /* Build configuration list for PBXNativeTarget "Pods-BOILocalTerminal_Example" */;
+			buildPhases = (
+				D18B67A45F42FCEDDE55EEA80280AC43 /* Headers */,
+				2511C2F6113F8BF0CECF1515E6F4D15D /* Sources */,
+				219DBEC8EA32EACB8FA8FAA55EC75516 /* Frameworks */,
+				8B762D7B3D7095F9E5A4CB8C89CCED9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAD7FBC4ECEEC2B09A9E7029AEDCB67 /* PBXTargetDependency */,
+			);
+			name = "Pods-BOILocalTerminal_Example";
+			productName = Pods_BOILocalTerminal_Example;
+			productReference = B3621130661772773FCA2DB33967BFEB /* Pods-BOILocalTerminal_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 685A956EA3AFEC0D27C932C6475485C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E1C353C98B268490DE7E3A21044846 /* BOILocalTerminal */,
+				CA4F7D669A62BE504DC99DF210A4F5AC /* Pods-BOILocalTerminal_Example */,
+				B9D0543CF8BA03D0A32755D2BF82BAD0 /* Pods-BOILocalTerminal_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C8CFD3E29CC87C984E324B193833E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D8261472111125339387A46F387969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B762D7B3D7095F9E5A4CB8C89CCED9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2511C2F6113F8BF0CECF1515E6F4D15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65FD547E184A5334BDBA9A0ACF78F57 /* Pods-BOILocalTerminal_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1FE7F9ADE2217BA639054CE6DD2B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ADD320F3884A3F30FD20530C3384C8 /* BOILocalTerminal-dummy.m in Sources */,
+				ADF75663234E5C6F9262036F6F4619D0 /* BOILocalTerminalVM.m in Sources */,
+				39D69672136A39876B7A881747E9F829 /* ESApi.m in Sources */,
+				659ECB650222B4AC33176CEADE2E33D9 /* ESApiTextFieldDelegate.m in Sources */,
+				7588BB0DCAE4FB57D9A0B51555BB5AA8 /* ESAsynchResp.m in Sources */,
+				99485C28A1B7058D602A16E94DCA03FA /* ESDummySelectionDelegate.m in Sources */,
+				D4127973238550CCB76EB9E893F0B905 /* ESSelectionData.m in Sources */,
+				12912A55A670BE670A48478C3282E302 /* ESTextFieldDelegate.m in Sources */,
+				25D93107EFF3B03ACD0CAE7F0D00C77E /* ESValueQuestionData.m in Sources */,
+				F27C75CBF568A621F0A70F24A5065708 /* TOTBOItransactionResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35D7651016193DFDAB3EDC291BA76F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621FF6D30DA55D6E0974749B768FD9DA /* Pods-BOILocalTerminal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C567C800D6D53BE09CC3732D19419F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BOILocalTerminal_Example";
+			target = CA4F7D669A62BE504DC99DF210A4F5AC /* Pods-BOILocalTerminal_Example */;
+			targetProxy = 62C3A564F0A80D48241110B2788EF13C /* PBXContainerItemProxy */;
+		};
+		FBAD7FBC4ECEEC2B09A9E7029AEDCB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BOILocalTerminal;
+			target = 26E1C353C98B268490DE7E3A21044846 /* BOILocalTerminal */;
+			targetProxy = A2D4EDD4996FD961FAC67F0481159593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BBE39089A95080335DFC6FC54A2D9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4FF6A732739E0AACD9DEC68C48AC11 /* BOILocalTerminal.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOILocalTerminal/BOILocalTerminal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOILocalTerminal/BOILocalTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BOILocalTerminal/BOILocalTerminal.modulemap";
+				PRODUCT_MODULE_NAME = BOILocalTerminal;
+				PRODUCT_NAME = BOILocalTerminal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44194E3B68D4BA7BF8661233EE91BE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB5A77AF1C8291F5534D76BB823EA0C /* Pods-BOILocalTerminal_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOILocalTerminal_Tests/Pods-BOILocalTerminal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOILocalTerminal_Tests/Pods-BOILocalTerminal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63B81EED87E86682B54A4247E66E7092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D55AC7D9DE9D1091A43D37727246C3 /* BOILocalTerminal.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOILocalTerminal/BOILocalTerminal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOILocalTerminal/BOILocalTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BOILocalTerminal/BOILocalTerminal.modulemap";
+				PRODUCT_MODULE_NAME = BOILocalTerminal;
+				PRODUCT_NAME = BOILocalTerminal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90CA0775223687850379B6A1457B2096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA0CAF4AA5024DB1CE301D653428D8C /* Pods-BOILocalTerminal_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOILocalTerminal_Tests/Pods-BOILocalTerminal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOILocalTerminal_Tests/Pods-BOILocalTerminal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8B7715ADF0D3BC7A73F1A2A41B276DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448263D97B93EDEC61A4AC1E3C4A7565 /* Pods-BOILocalTerminal_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOILocalTerminal_Example/Pods-BOILocalTerminal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOILocalTerminal_Example/Pods-BOILocalTerminal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE3DA5CE62141F250749216A3F53A6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573823F3FAEDB2536813A0AEE1782C5C /* Pods-BOILocalTerminal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOILocalTerminal_Example/Pods-BOILocalTerminal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOILocalTerminal_Example/Pods-BOILocalTerminal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B874730A40BD1ABC8B109DDDCA8A94A /* Build configuration list for PBXNativeTarget "BOILocalTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBE39089A95080335DFC6FC54A2D9D5 /* Debug */,
+				63B81EED87E86682B54A4247E66E7092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A7E9F9D384D753A5F0AA6F1F140B4C /* Build configuration list for PBXNativeTarget "Pods-BOILocalTerminal_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CA0775223687850379B6A1457B2096 /* Debug */,
+				44194E3B68D4BA7BF8661233EE91BE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7693066A681FD1559D9E1682CA759E20 /* Build configuration list for PBXNativeTarget "Pods-BOILocalTerminal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B7715ADF0D3BC7A73F1A2A41B276DC /* Debug */,
+				CE3DA5CE62141F250749216A3F53A6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

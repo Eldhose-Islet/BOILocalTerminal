@@ -1,0 +1,22 @@
+{
+  "name": "BOILocalTerminal",
+  "version": "0.1.0",
+  "summary": "Bank of Ireland card terminal communication library through Lan",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/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/BOILocalTerminal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "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": "eldhose@isletsystems.com"
+  },
+  "source": {
+    "git": "https://github.com/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/BOILocalTerminal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "BOILocalTerminal/Classes/**/*"
+}

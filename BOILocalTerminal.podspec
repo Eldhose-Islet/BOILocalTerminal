@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BOILocalTerminal'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BOILocalTerminal.'
+  s.summary          = 'Bank of Ireland card terminal communication library through Lan'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/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/BOILocalTerminal.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'BOILocalTerminal/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'BOILocalTerminal' => ['BOILocalTerminal/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

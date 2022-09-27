@@ -1,31 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eM6-5Y-nOi">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="6zW-xp-5e7">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="BOIViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <viewController id="eM6-5Y-nOi" customClass="BOIViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gMG-lg-f8G">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="like 192.168.29.66" adjustsFontSizeToFit="NO" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="PI0-eC-hjd">
+                                <rect key="frame" x="155" y="36" width="602" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Szv-Sx-0am"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" borderStyle="roundedRect" placeholder="000000" textAlignment="right" adjustsFontSizeToFit="NO" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="uWB-Ab-eux">
+                                <rect key="frame" x="75" y="81.5" width="87" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textAmountEditingDidEnd:" destination="eM6-5Y-nOi" eventType="editingDidEnd" id="PDW-AZ-Gr0"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITj-3W-59g">
+                                <rect key="frame" x="10" y="89" width="57" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trx Id for refund" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMH-Yr-G9y">
+                                <rect key="frame" x="610.5" y="87.5" width="116.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAy-NL-ZD1">
+                                <rect key="frame" x="138" y="49" width="14" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-zg-mUN">
+                                <rect key="frame" x="10" y="123.5" width="814" height="32"/>
+                                <segments>
+                                    <segment title="Status"/>
+                                    <segment title="Sale"/>
+                                    <segment title="Reversal"/>
+                                    <segment title="LastTrx"/>
+                                    <segment title="Reconciliation"/>
+                                </segments>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="rect" keyPath="frame">
+                                        <rect key="value" x="10" y="230" width="384" height="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="frame.size.height">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="switchTrxTypeChanged:" destination="eM6-5Y-nOi" eventType="valueChanged" id="8ul-q5-4Rr"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uAQ-km-eRJ">
+                                <rect key="frame" x="10" y="202.5" width="814" height="32"/>
+                                <segments>
+                                    <segment title="Status"/>
+                                    <segment title="API logs"/>
+                                    <segment title="PCL logs"/>
+                                    <segment title="Printouts"/>
+                                </segments>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="rect" keyPath="frame">
+                                        <rect key="value" x="10" y="284" width="384" height="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="switchResultChange:" destination="eM6-5Y-nOi" eventType="valueChanged" id="EpL-ju-dnQ"/>
+                                </connections>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Roe-FG-GfK">
+                                <rect key="frame" x="10" y="239.5" width="814" height="902.5"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected BT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hk7-Nj-cs1">
+                                <rect key="frame" x="20" y="49" width="110" height="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGf-U5-61x">
+                                <rect key="frame" x="10" y="1152" width="90" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Clear Log">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearlogPerform:" destination="eM6-5Y-nOi" eventType="touchUpInside" id="dJv-GL-Rcc"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000000" adjustsFontSizeToFit="NO" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="vKA-as-CvJ">
+                                <rect key="frame" x="735" y="80" width="87" height="34"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnQ-uf-b6t">
+                                <rect key="frame" x="10" y="162.5" width="814" height="32"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonStartTouch:" destination="eM6-5Y-nOi" eventType="touchUpInside" id="THX-2p-5aE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Connected WIFI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHx-za-HQk">
+                                <rect key="frame" x="20" y="49" width="116" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZO-Y1-u6K">
+                                <rect key="frame" x="767" y="36" width="55" height="40"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnSaveTouch:" destination="eM6-5Y-nOi" eventType="touchUpInside" id="eB0-xs-IT2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aO2-Oc-sg8"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RAy-NL-ZD1" firstAttribute="leading" secondItem="HHx-za-HQk" secondAttribute="trailing" constant="2" id="5su-ci-Nzv"/>
+                            <constraint firstItem="uWB-Ab-eux" firstAttribute="leading" secondItem="ITj-3W-59g" secondAttribute="trailing" constant="8" symbolic="YES" id="6e7-AU-wyM"/>
+                            <constraint firstItem="Roe-FG-GfK" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="8J2-22-W4C"/>
+                            <constraint firstItem="ITj-3W-59g" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="9pv-W0-SeQ"/>
+                            <constraint firstItem="PI0-eC-hjd" firstAttribute="leading" secondItem="RAy-NL-ZD1" secondAttribute="trailing" constant="3" id="BJb-3R-8FQ"/>
+                            <constraint firstItem="vKA-as-CvJ" firstAttribute="leading" secondItem="GMH-Yr-G9y" secondAttribute="trailing" constant="8" id="DtA-6D-TRO"/>
+                            <constraint firstItem="JGf-U5-61x" firstAttribute="top" secondItem="Roe-FG-GfK" secondAttribute="bottom" constant="10" id="FHc-64-22d"/>
+                            <constraint firstItem="RAy-NL-ZD1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hk7-Nj-cs1" secondAttribute="trailing" constant="8" symbolic="YES" id="FRx-S1-CHl"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="vKA-as-CvJ" secondAttribute="trailing" constant="12" id="G9t-Qt-dkc"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="tnQ-uf-b6t" secondAttribute="trailing" constant="10" id="LKD-sv-6yp"/>
+                            <constraint firstItem="uWB-Ab-eux" firstAttribute="firstBaseline" secondItem="ITj-3W-59g" secondAttribute="firstBaseline" id="LST-9b-8n1"/>
+                            <constraint firstItem="tnQ-uf-b6t" firstAttribute="top" secondItem="gMF-zg-mUN" secondAttribute="bottom" constant="8" symbolic="YES" id="MBd-FV-AWh"/>
+                            <constraint firstItem="tnQ-uf-b6t" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="MIK-al-a0T"/>
+                            <constraint firstItem="Roe-FG-GfK" firstAttribute="top" secondItem="uAQ-km-eRJ" secondAttribute="bottom" constant="6" id="Plp-QV-4Be"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="gMF-zg-mUN" secondAttribute="trailing" constant="10" id="Pso-OA-QGO"/>
+                            <constraint firstItem="vKA-as-CvJ" firstAttribute="top" secondItem="PI0-eC-hjd" secondAttribute="bottom" constant="4" id="TpO-ft-TJh"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="AZO-Y1-u6K" secondAttribute="trailing" constant="12" id="U60-Vs-1FH"/>
+                            <constraint firstItem="uAQ-km-eRJ" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="UFd-kW-5HC"/>
+                            <constraint firstItem="Hk7-Nj-cs1" firstAttribute="top" secondItem="aO2-Oc-sg8" secondAttribute="top" constant="25" id="V58-OF-chy"/>
+                            <constraint firstItem="HHx-za-HQk" firstAttribute="top" secondItem="aO2-Oc-sg8" secondAttribute="top" constant="25" id="VOM-3C-d6Y"/>
+                            <constraint firstItem="AZO-Y1-u6K" firstAttribute="leading" secondItem="PI0-eC-hjd" secondAttribute="trailing" constant="10" id="ZYc-CO-C7K"/>
+                            <constraint firstItem="PI0-eC-hjd" firstAttribute="top" secondItem="aO2-Oc-sg8" secondAttribute="top" constant="12" id="a4o-JB-4FM"/>
+                            <constraint firstItem="RAy-NL-ZD1" firstAttribute="top" secondItem="aO2-Oc-sg8" secondAttribute="top" constant="25" id="im6-Rz-tl6"/>
+                            <constraint firstItem="ITj-3W-59g" firstAttribute="top" secondItem="Hk7-Nj-cs1" secondAttribute="bottom" constant="20" id="jDW-Pn-dP7"/>
+                            <constraint firstItem="Hk7-Nj-cs1" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="20" id="lhG-Qh-F1C"/>
+                            <constraint firstItem="gMF-zg-mUN" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="mll-no-TbO"/>
+                            <constraint firstItem="uAQ-km-eRJ" firstAttribute="top" secondItem="tnQ-uf-b6t" secondAttribute="bottom" constant="8" id="mq0-hk-77y"/>
+                            <constraint firstItem="JGf-U5-61x" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="10" id="nui-Iv-ggd"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="uAQ-km-eRJ" secondAttribute="trailing" constant="10" id="o5B-Hr-Rfc"/>
+                            <constraint firstItem="HHx-za-HQk" firstAttribute="leading" secondItem="aO2-Oc-sg8" secondAttribute="leading" constant="20" id="pJ4-7D-m7g"/>
+                            <constraint firstItem="GMH-Yr-G9y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uWB-Ab-eux" secondAttribute="trailing" constant="8" symbolic="YES" id="pai-xL-pYJ"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" secondItem="Roe-FG-GfK" secondAttribute="trailing" constant="10" id="qGm-rc-2dv"/>
+                            <constraint firstItem="GMH-Yr-G9y" firstAttribute="firstBaseline" secondItem="vKA-as-CvJ" secondAttribute="firstBaseline" id="rvO-QR-YRX"/>
+                            <constraint firstItem="aO2-Oc-sg8" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JGf-U5-61x" secondAttribute="trailing" symbolic="YES" id="sUk-bf-ZsZ"/>
+                            <constraint firstItem="AZO-Y1-u6K" firstAttribute="height" secondItem="PI0-eC-hjd" secondAttribute="height" id="vWF-ID-dQS"/>
+                            <constraint firstItem="gMF-zg-mUN" firstAttribute="top" secondItem="uWB-Ab-eux" secondAttribute="bottom" constant="8" id="wDr-v2-OhA"/>
+                            <constraint firstItem="AZO-Y1-u6K" firstAttribute="top" secondItem="aO2-Oc-sg8" secondAttribute="top" constant="12" id="yfY-Cg-gEk"/>
+                            <constraint firstAttribute="bottom" secondItem="JGf-U5-61x" secondAttribute="bottom" constant="12" id="zsn-Sp-HGY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
+                    <connections>
+                        <outlet property="LogCLearButton" destination="JGf-U5-61x" id="iag-r7-BHM"/>
+                        <outlet property="StartButton" destination="tnQ-uf-b6t" id="tjM-Ob-DZZ"/>
+                        <outlet property="labelPclOn" destination="Hk7-Nj-cs1" id="Phg-kI-EM9"/>
+                        <outlet property="labelWIFI" destination="HHx-za-HQk" id="XCH-po-h5p"/>
+                        <outlet property="switchResult" destination="uAQ-km-eRJ" id="REo-k6-xVH"/>
+                        <outlet property="switchTrxType" destination="gMF-zg-mUN" id="s6x-bc-O2X"/>
+                        <outlet property="textAmount" destination="uWB-Ab-eux" id="wUa-3r-6Oh"/>
+                        <outlet property="textIP" destination="PI0-eC-hjd" id="BjG-Dz-g96"/>
+                        <outlet property="textResult" destination="Roe-FG-GfK" id="0eU-xj-VSy"/>
+                        <outlet property="textTransaction" destination="vKA-as-CvJ" id="MID-w6-rBs"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ucz-br-eVM" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="-3913.6690647482019" y="-165.82914572864323"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
